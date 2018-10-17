@@ -11,3 +11,10 @@ Easy-to-play game written in pure JS.
 - BUT, if the player rolls a 1, all his ROUND score gets lost. After that, it's the next player's turn
 - The player can choose to 'Hold', which means that his ROUND score gets added to his GLBAL score. After that, it's the next player's turn
 - The first player to reach 100 points on GLOBAL score wins the game
+
+### Let's try it
+
+Here is the link if you would like to try it:
+
+[:game_die: Pig-Game](https://agnes-kabaly.github.io/Pig-Game/)
+
