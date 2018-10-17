@@ -1,6 +1,6 @@
 # The-Pig-Game :pig:
 
-2 player game with the dice in the center dice. :game_die:
+2 player game with the :game_die: in the center.
 
 Easy-to-play game written in pure JS.
 
