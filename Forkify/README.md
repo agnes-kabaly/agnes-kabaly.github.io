@@ -17,7 +17,7 @@ I built this project in The Complete JavaScript Course on Udemy taught by Jonas 
 
 The project focusing on writing JavaScript (ES6).
 
-## Let's try it
+## Let's try it:
 
 [:mag_right: Forkify :pizza:](https://agnes-kabaly.github.io/Forkify/)
 
