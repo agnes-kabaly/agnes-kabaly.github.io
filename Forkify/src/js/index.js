@@ -1,12 +1,12 @@
-import Search from './Search';
-import Recipe from './Recipe';
-import List from './List';
-import Likes from './Likes';
-import * as searchView from './searchView';
-import * as recipeView from './recipeView';
-import * as listView from './listView';
-import * as likesView from './likesView';
-import { elements, renderLoader, clearLoader } from './base';
+import Search from './models/Search';
+import Recipe from './models/Recipe';
+import List from './models/List';
+import Likes from './models/Likes';
+import * as searchView from './views/searchView';
+import * as recipeView from './views/recipeView';
+import * as listView from './views/listView';
+import * as likesView from './views/likesView';
+import { elements, renderLoader, clearLoader } from './views/base';
 
 /* Global state of the app
  - Search object
@@ -130,7 +130,7 @@ elements.shopping.addEventListener('click', e => {
         // Delete from UI
         listView.deleteItem(id);
 
-        // Handle the count update
+    // Handle the count update
     } else if (e.target.matches('.shopping__count-value')) {
         if (e.target.value > 0) {
             const val = parseFloat(e.target.value, 10);
@@ -161,7 +161,7 @@ const controlLike = () => {
         // Add like to UI list
         likesView.renderLike(newLike);
 
-        // User HAS yet liked current recipe
+    // User HAS yet liked current recipe
     } else {
         // Remove like from the state
         state.likes.deleteLike(currentID);
