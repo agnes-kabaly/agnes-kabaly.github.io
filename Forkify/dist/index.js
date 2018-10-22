@@ -1,12 +1,12 @@
-import Search from './models/Search';
-import Recipe from './models/Recipe';
-import List from './models/List';
-import Likes from './models/Likes';
-import * as searchView from './views/searchView';
-import * as recipeView from './views/recipeView';
-import * as listView from './views/listView';
-import * as likesView from './views/likesView';
-import { elements, renderLoader, clearLoader } from './views/base';
+import Search from './Search';
+import Recipe from './Recipe';
+import List from './List';
+import Likes from './Likes';
+import * as searchView from './searchView';
+import * as recipeView from './recipeView';
+import * as listView from './listView';
+import * as likesView from './likesView';
+import { elements, renderLoader, clearLoader } from './base';
 
 /* Global state of the app
  - Search object
